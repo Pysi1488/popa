@@ -93,7 +93,10 @@ while run:
  
        ship.update()
        monsters.update()
-       bullets.update()
+
+recet1 = Player('recrt.png', 30, 200, 4, 50, 150)
+recet2 = Player('recrt.png', 520, 200, 4, 50, 150)
+ball = GameSprite('tenis_ball.png', 200, 200, 4, 50, 50)
  
  
        ship.reset()
