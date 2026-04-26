@@ -142,7 +142,9 @@ ball = GameSprite('tenis_ball.png', 200, 200, 4, 50, 50)
        for i in range(1, 6):
            monster = Enemy(img_enemy, randint(80, win_width - 80), -40, 80, 50, randint(1, 5))
            monsters.add(monster)
- 
+recet1.reset()
+recet2.reset()
+ball.reset() 
  
  
    time.delay(50)
